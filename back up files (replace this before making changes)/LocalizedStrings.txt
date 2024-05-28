@@ -2582,9 +2582,9 @@ fb0b76aa-ee92-4fd8-9847-7475127ea599_flavorText,Smackadamia wasn't born with sma
 ,
 55e039d0-cee7-4cf7-be45-7a6e1cf96495_name,Grave Buster
 ,
-55e039d0-cee7-4cf7-be45-7a6e1cf96495_shortDesc,Destroy a Gravestone.
+55e039d0-cee7-4cf7-be45-7a6e1cf96495_shortDesc,Destroy a Gravestone and make a Busted Ground here.
 ,
-55e039d0-cee7-4cf7-be45-7a6e1cf96495_longDesc,Destroy a Gravestone.
+55e039d0-cee7-4cf7-be45-7a6e1cf96495_longDesc,Destroy a Gravestone. If played on ground: make a Busted Ground here.
 ,
 55e039d0-cee7-4cf7-be45-7a6e1cf96495_flavorText,"""MUST. DESTROY. GRAVES."""
 ,
@@ -21009,3 +21009,7 @@ MESSAGE_ON,ON
 DELETE_APPLE_ACCOUNT,Delete My Mobile Account
 ,
 PERMISSION_TO_DOWNLOAD,PVZH needs to download additional\n <SIZE_IN_MB> MB of content.
+BustedGround_name,BustedGround
+BustedGround_shortDesc,Gravestone's can't be played here
+BustedGround_longDesc,Zombies can't play gravestones here
+BustedGround_flavorText,
