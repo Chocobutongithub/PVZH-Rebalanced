@@ -2590,11 +2590,11 @@ fb0b76aa-ee92-4fd8-9847-7475127ea599_flavorText,Smackadamia wasn't born with sma
 ,
 cae163ff-5524-47c4-b836-7062fb14b3a0_name,Water Chestnut
 ,
-cae163ff-5524-47c4-b836-7062fb14b3a0_shortDesc,"[aquatic], [teamup] "
+cae163ff-5524-47c4-b836-7062fb14b3a0_shortDesc,"[aquatic], [teamup], [armored=1] "
 ,
-cae163ff-5524-47c4-b836-7062fb14b3a0_longDesc,"[aquatic], [teamup] "
+cae163ff-5524-47c4-b836-7062fb14b3a0_longDesc,"[aquatic], [teamup], [armored=1] "
 ,
-cae163ff-5524-47c4-b836-7062fb14b3a0_flavorText,"""300 laps a day, every day. That's how I do it."""
+cae163ff-5524-47c4-b836-7062fb14b3a0_flavorText,"""Idea by semblance"""
 ,
 e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_name,Sting Bean
 ,
@@ -4342,13 +4342,13 @@ e1ec49b6-5c00-4c82-954d-0ddc17705d7c_flavorText,"""It ain't easy keeping the pea
 ,
 13bbd37a-8555-4a16-9ba6-929f77f037b8_name,Gardening Gloves
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_shortDesc,Move a Plant. Draw a card.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_shortDesc,Move a Plant or Zombie. Draw a card.
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_longDesc,Move a Plant. \nDraw a card.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_longDesc,Move a Plant or Zombie. \nDraw a card.
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_Targeting,Tap where to move this Plant.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_Targeting,Tap where to move this fighter.
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_flavorText,"Made of the softest fabric for that gentle Plant touch. "
+13bbd37a-8555-4a16-9ba6-929f77f037b8_flavorText,"idea by semblance"
 ,
 8f62a894-1fa1-433f-92a6-e2a07eeefcf7_name,Lightning Reed
 ,
@@ -4730,11 +4730,11 @@ Magic Beanstalk_flavorText,Giant not included.
 ,
 Small-Nut_name,Small-Nut
 ,
-Small-Nut_shortDesc,
+Small-Nut_shortDesc, When you play a nut, all nuts get [+1h]
 ,
-Small-Nut_longDesc,
+Small-Nut_longDesc, When you play a nut: all nuts get [+1h]
 ,
-Small-Nut_flavorText,"A violin virtuoso, Small-Nut began taking lessons when he was still in the shell. "
+Small-Nut_flavorText,"Idea by semblance"
 ,
 Button Mushroom_name,Button Mushroom
 ,
