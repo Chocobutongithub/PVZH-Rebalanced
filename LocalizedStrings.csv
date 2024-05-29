@@ -1910,9 +1910,9 @@ subtype_Mime,Mime
 ,
 4f6ad95c-e9c3-43ea-95cf-223e47302f51_name,Pismashio
 ,
-4f6ad95c-e9c3-43ea-95cf-223e47302f51_shortDesc,
+4f6ad95c-e9c3-43ea-95cf-223e47302f51_shortDesc,[armored=1]. When played: Give a Plant and Plant Hero [+3h]
 ,
-4f6ad95c-e9c3-43ea-95cf-223e47302f51_longDesc,
+4f6ad95c-e9c3-43ea-95cf-223e47302f51_longDesc,[armored=1]. When played: Give a Plant and Plant Hero [+3h]
 ,
 4f6ad95c-e9c3-43ea-95cf-223e47302f51_flavorText,"""I'm a kind of ice cream! Sort of!"""
 ,
@@ -2590,9 +2590,9 @@ fb0b76aa-ee92-4fd8-9847-7475127ea599_flavorText,Smackadamia wasn't born with sma
 ,
 cae163ff-5524-47c4-b836-7062fb14b3a0_name,Water Chestnut
 ,
-cae163ff-5524-47c4-b836-7062fb14b3a0_shortDesc,"[aquatic], [teamup], [armored=1] "
+cae163ff-5524-47c4-b836-7062fb14b3a0_shortDesc,"[aquatic], [teamup], [hunt]"
 ,
-cae163ff-5524-47c4-b836-7062fb14b3a0_longDesc,"[aquatic], [teamup], [armored=1] "
+cae163ff-5524-47c4-b836-7062fb14b3a0_longDesc,"[aquatic], [teamup], [hunt]"
 ,
 cae163ff-5524-47c4-b836-7062fb14b3a0_flavorText,"""Idea by semblance"""
 ,
@@ -4348,7 +4348,7 @@ e1ec49b6-5c00-4c82-954d-0ddc17705d7c_flavorText,"""It ain't easy keeping the pea
 ,
 13bbd37a-8555-4a16-9ba6-929f77f037b8_Targeting,Tap where to move this fighter.
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_flavorText,"idea by semblance"
+13bbd37a-8555-4a16-9ba6-929f77f037b8_flavorText,idea by semblance
 ,
 8f62a894-1fa1-433f-92a6-e2a07eeefcf7_name,Lightning Reed
 ,
@@ -4588,9 +4588,9 @@ Imposter_Token_longDesc,
 ,
 Weenie_Beanie_name,Weenie Beanie
 ,
-Weenie_Beanie_shortDesc,
+Weenie_Beanie_shortDesc,When destroyed: Give all cards in your hand [-1s]
 ,
-Weenie_Beanie_longDesc,
+Weenie_Beanie_longDesc,When destroyed: Give all cards in your hand [-1s]
 ,
 Weenie_Beanie_flavorText,"Prefers to be called ""Vertically Challenged Beanie."""
 ,
@@ -4730,11 +4730,11 @@ Magic Beanstalk_flavorText,Giant not included.
 ,
 Small-Nut_name,Small-Nut
 ,
-Small-Nut_shortDesc, When you play a nut, all nuts get [+1h]
+Small-Nut_shortDesc," When you play a nut: all nuts get [+1h]"
 ,
-Small-Nut_longDesc, When you play a nut: all nuts get [+1h]
+Small-Nut_longDesc," When you play a nut: all nuts get [+1h]"
 ,
-Small-Nut_flavorText,"Idea by semblance"
+Small-Nut_flavorText,Idea by semblance
 ,
 Button Mushroom_name,Button Mushroom
 ,
@@ -14274,9 +14274,9 @@ Gravitational Pull_flavorText,"The galaxy is one beautiful melody, so play!"
 ,
 Plantern_name,Plantern
 ,
-Plantern_shortDesc,While in an Environment: This gets [+1a]/[+1h] and [truestrike].
+Plantern_shortDesc,You can tap Gravestones to see what zombies are hiding in them. When played: Give all Plants [+1a]/[+1h].
 ,
-Plantern_longDesc,<b>While in an Environment:</b> This gets [+1a]/[+1h] and [truestrike].
+Plantern_longDesc,You can tap Gravestones to see what zombies are hiding in them. When played: Give all Plants [+1a]/[+1h].
 ,
 Plantern_flavorText,Past job experience includes: Shooing away creepy fog.
 ,
@@ -21013,3 +21013,4 @@ BustedGround_name,BustedGround
 BustedGround_shortDesc,Gravestone's can't be played here
 BustedGround_longDesc,Zombies can't play gravestones here
 BustedGround_flavorText,
+4f6ad95c-e9c3-43ea-95cf-223e47302f51_Targeting,Choose a Plant to give it [+3h]
