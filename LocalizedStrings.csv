@@ -14330,9 +14330,9 @@ Invincible Castle_flavorText,It's a force of nature.
 ,
 Body Gourd_name,Body-Gourd
 ,
-Body Gourd_shortDesc,"[aquatic], [teamup]. Fill your Super-Block Meter to full."
+Body Gourd_shortDesc,"[aquatic], [teamup], [plantshunt]. Plant behind this is [shielded]."
 ,
-Body Gourd_longDesc,"[aquatic], [teamup]\n<b>When played:</b> Fill your Super-Block Meter to full."
+Body Gourd_longDesc,"[aquatic], [teamup] [plantshunt].\nPlant behind this is [shielded]."
 ,
 Body Gourd_flavorText,He moonlights as a decorative center piece during the fall.
 ,
@@ -15520,9 +15520,9 @@ Zombology Teacher_flavorText,"""If you don't pay attention in class, you'll neve
 ,
 Primal Potato Mine_name,Primal Potato Mine
 ,
-Primal Potato Mine_shortDesc,When destroyed: Do 3 damage to a Zombie here.
+Primal Potato Mine_shortDesc,When destroyed: Do 3 damage to a Zombie here and next door.
 ,
-Primal Potato Mine_longDesc,<b>When destroyed:</b> Do 3 damage to a Zombie here.
+Primal Potato Mine_longDesc,<b>When destroyed:</b> Do 3 damage to a Zombie here and next door.
 ,
 Primal Potato Mine_flavorText,"Hidden long ago in Hollow Earth, Dinosaurs ran rampant in The Land Before Mine."
 ,

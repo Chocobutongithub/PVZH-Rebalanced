@@ -22,5 +22,11 @@
 * Weenie Beanie: Now is 5/4/4. Effect added: When destroyed: give all cards in your hand -1 cost
 * Plantern: Now is 4/2/3. Effect added: You can tap Gravestones to see what zombies are hiding in them. When played: Give all Plants +1/+1 (including itself). Rarity: Common -> SuperRare
 
+# 30/05/2024:
+
+## Chocopie:
+*Weenie Beanie: Rarity: Common -> SuperRare
+*Body-Gourd: Reworked: 5/2/7, Plants hunt, Team-up, Amphibious. Plants behind this get Shielded (can't take damages).
+*Primal Potatomine: Do nothing as for a bug.
 
 ---
