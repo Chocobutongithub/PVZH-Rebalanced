@@ -2516,9 +2516,9 @@ bff0d95a-5aa1-4b80-b62c-c98e82f51dee_flavorText,"""It's true. I'm prickly on the
 ,
 9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_name,Steel Magnolia
 ,
-9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_shortDesc,Plants here and next door get [+2h].
+9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_shortDesc,[teamup]. Plants here and next door get [+2h].
 ,
-9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_longDesc,<b>When played:</b> Plants here and next door get [+2h].
+9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_longDesc,"[teamup]\n<b>When played:</b> Plants here and next door get [+2h]."
 ,
 9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_flavorText,She's got nerves of steel... and everything else of steel!
 ,
@@ -2598,9 +2598,9 @@ cae163ff-5524-47c4-b836-7062fb14b3a0_flavorText,"""Idea by semblance"""
 ,
 e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_name,Sting Bean
 ,
-e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_shortDesc,"[aquatic], [truestrike]"
+e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_shortDesc,"[aquatic], [teamup], [truestrike]"
 ,
-e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_longDesc,"[aquatic], [truestrike]"
+e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_longDesc,"[aquatic], [teamup], [truestrike]"
 ,
 e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_flavorText,"""I try to warn them, 'This is going to sting.' But the Zombies, they never listen."""
 ,
@@ -2614,9 +2614,9 @@ e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_flavorText,"""I try to warn them, 'This is 
 ,
 00f8f7f7-47ed-435e-91cf-1bccf134d528_name,Spineapple
 ,
-00f8f7f7-47ed-435e-91cf-1bccf134d528_shortDesc,When played: Plants with no Strength get [+2a].
+00f8f7f7-47ed-435e-91cf-1bccf134d528_shortDesc,When played: Plants with [2a] or less get [+2a].
 ,
-00f8f7f7-47ed-435e-91cf-1bccf134d528_longDesc,<b>When played:</b> Plants with no Strength get [+2a].
+00f8f7f7-47ed-435e-91cf-1bccf134d528_longDesc,<b>When played:</b> Plants with [2a] or less get [+2a].
 ,
 00f8f7f7-47ed-435e-91cf-1bccf134d528_flavorText,Don't let his gruff exterior fool you. He's always looking out for the little guy.
 ,
@@ -4342,11 +4342,11 @@ e1ec49b6-5c00-4c82-954d-0ddc17705d7c_flavorText,"""It ain't easy keeping the pea
 ,
 13bbd37a-8555-4a16-9ba6-929f77f037b8_name,Gardening Gloves
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_shortDesc,Move a Plant or Zombie. Draw a card.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_shortDesc,Move a Plant. Draw a card.
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_longDesc,Move a Plant or Zombie. \nDraw a card.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_longDesc,Move a Plant. \nDraw a card.
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_Targeting,Tap where to move this fighter.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_Targeting,Choose where to move this Plant.
 ,
 13bbd37a-8555-4a16-9ba6-929f77f037b8_flavorText,idea by semblance
 ,
@@ -4730,9 +4730,9 @@ Magic Beanstalk_flavorText,Giant not included.
 ,
 Small-Nut_name,Small-Nut
 ,
-Small-Nut_shortDesc," When you play a nut: all nuts get [+1h]"
+Small-Nut_shortDesc," When you play a nut: all nuts get [+1h]."
 ,
-Small-Nut_longDesc," When you play a nut: all nuts get [+1h]"
+Small-Nut_longDesc," When you play a nut: all nuts get [+1h]."
 ,
 Small-Nut_flavorText,Idea by semblance
 ,
@@ -14250,9 +14250,9 @@ High Voltage Currant_flavorText,These trouble makers are just asking to get grou
 ,
 Health Nut_name,Health-Nut
 ,
-Health Nut_shortDesc,This attacks using its [h] instead of its [a].
+Health Nut_shortDesc,This attacks using its [h] instead of its [a]. Start of turn: this gets [+2h]
 ,
-Health Nut_longDesc,This attacks using its [h] instead of its [a].
+Health Nut_longDesc,"This attacks using its [h] instead of its [a].\n<b>Start of turn:</b> this gets [+2h]."
 ,
 Health Nut_flavorText,He always skips leg day.
 ,
@@ -14298,17 +14298,17 @@ Cosmic Nut_flavorText,"A staunch believer in numerology, he'll go on at length a
 ,
 Starch Lord_name,Starch-Lord
 ,
-Starch Lord_shortDesc,"When you play a Root, that Root gets [+1a]/[+1h]. Start of turn: [conjure] a Root."
+Starch Lord_shortDesc,When you play a Root: All Roots get [+1h]. When played: [conjure] a Root.
 ,
-Starch Lord_longDesc,"When you play a Root, that Root gets [+1a]/[+1h].\n<b>Start of turn:</b> [conjure] a Root."
+Starch Lord_longDesc,"<b>When you play a Root:</b> All Roots get [+1h]. \n<b>When played:</b> [conjure] a Root."
 ,
 Starch Lord_flavorText,His destiny is written in the starch.
 ,
 Galactacactus_name,Galacta-Cactus
 ,
-Galactacactus_shortDesc,[truestrike]. When destroyed: Do 1 damage to everything.
+Galactacactus_shortDesc,When destroyed: Do 1 damage to everything.
 ,
-Galactacactus_longDesc,[truestrike]\n<b>When destroyed:</b> Do 1 damage to everything.
+Galactacactus_longDesc,<b>When destroyed:</b> Do 1 damage to everything.
 ,
 Galactacactus_flavorText,"""I take pity on no one. For I am Galacta-Cactus!"""
 ,
@@ -15220,9 +15220,7 @@ Cosmic Nut_heraldFighter,Conjured by Cosmic Nut - [a] set to [3a]
 ,
 Cosmic Nut_heraldTrick,Conjured by Cosmic Nut
 ,
-Starch Lord_heraldFighter,Conjured by Starch-Lord
 ,
-Starch Lord_heraldTrick,Conjured by Starch-Lord
 ,
 High Voltage Currant_heraldFighter,Conjured by High-Voltage Currant
 ,
@@ -15328,9 +15326,7 @@ Pumpking_heraldFighter,Conjured by Haunted Pumpking
 ,
 Pumpking_heraldTrick,Conjured by Haunted Pumpking
 ,
-Primal Wall-Nut_heraldFighter,Conjured by Primal Wall-Nut
 ,
-Primal Wall-Nut_heraldTrick,Conjured by Primal Wall-Nut
 ,
 King Coconut_heraldFighter,Made by Loco Coco
 ,
@@ -15544,9 +15540,9 @@ Master Grave Blaster_flavorText,They call it a graveyard. She calls it a buffet.
 ,
 Three-Nut_name,Three-Nut
 ,
-Three-Nut_shortDesc,"When you play a Plant, that Plant's [a] becomes [3a]."
+Three-Nut_shortDesc,When a Plant is played: If that Plant has less then [3a]. It's [a] becomes [3a].
 ,
-Three-Nut_longDesc,"When you play a Plant, that Plant's [a] becomes [3a]."
+Three-Nut_longDesc,<b>When a Plant is played:</b> If that Plant has less then [3a]. It's [a] becomes [3a].
 ,
 Three-Nut_flavorText,They say two heads are better than one. Three-Nut just took the next evolutionary step.
 ,
@@ -15968,9 +15964,9 @@ Pumpkin Shell_flavorText,"""Build your house on a solid foundation,"" they said.
 ,
 Primal Wall-Nut_name,Primal Wall-Nut
 ,
-Primal Wall-Nut_shortDesc,"[teamup], [untrickable]. [conjure] a card that costs [4s] or more."
+Primal Wall-Nut_shortDesc,"[teamup], [untrickable]. Draw a card."
 ,
-Primal Wall-Nut_longDesc,"[teamup], [untrickable]\n<b>When played:</b> [conjure] a card that costs [4s] or more."
+Primal Wall-Nut_longDesc,"[teamup], [untrickable]\n<b>When played:</b> draw a card."
 ,
 Primal Wall-Nut_flavorText,You can't be destroyed by a Rolling Stone when you basically are a Rolling Stone.
 ,
@@ -15984,9 +15980,9 @@ Gilly Bean_flavorText,Of course beans evolved gills. How else would they breathe
 ,
 King Coconut_name,Loco Coco
 ,
-King Coconut_shortDesc,Make [wallnuts] next door. [nutevolution]: Plants with no [a] get [+3a].
+King Coconut_shortDesc,When you play a Nut: Do 3 damage it's lane. When Played: Make [wallnuts] next door. [nutevolution]: All Nuts get [+2a].
 ,
-King Coconut_longDesc,<b>When played:</b> Make [wallnuts] next door.\n[nutevolution]: Plants with no [a] get [+3a].
+King Coconut_longDesc,"<b>When you play a Nut:</b> Do 3 damage it's lane. \n<b>When Played:</b> Make [wallnuts] next door. \n[nutevolution]: All Nuts get [+2a]."
 ,
 King Coconut_flavorText,He crowned himself King of All Hollow Earth. No one had the heart to tell him it was actually a parliamentary democracy.
 ,
