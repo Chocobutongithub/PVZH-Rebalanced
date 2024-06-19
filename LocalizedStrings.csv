@@ -15980,9 +15980,9 @@ Gilly Bean_flavorText,Of course beans evolved gills. How else would they breathe
 ,
 King Coconut_name,Loco Coco
 ,
-King Coconut_shortDesc,When you play a Nut: Do 3 damage it's lane. When Played: Make [wallnuts] next door.
+King Coconut_shortDesc,When you play a Nut: Do 3 damage it's lane. When Played: Make [wallnuts] next door. [nutevolution]: All Nuts get [+3a]
 ,
-King Coconut_longDesc,"<b>When you play a Nut:</b> Do 3 damage it's lane. \n<b>When Played:</b> Make [wallnuts] next door. "
+King Coconut_longDesc,"<b>When you play a Nut:</b> Do 3 damage it's lane. \n<b>When Played:</b> Make [wallnuts] next door.\n [nutevolution]: All Nuts get [+3a]"
 ,
 King Coconut_flavorText,He crowned himself King of All Hollow Earth. No one had the heart to tell him it was actually a parliamentary democracy.
 ,
