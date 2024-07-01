@@ -1372,6 +1372,10 @@ AppOutOfDate_ThanksForPlaying_Message,Keep an eye out for upcoming updates!
 ,
 HeroHealthTutorial_1,Defeat the Zombie Hero!\nKnock his <b>Health</b>\ndown to 0!
 ,
+ability_charge,Charge
+,
+ability_plantshunt,Plants Hunt
+,
 ability_truestrike,Bullseye
 ,
 ability_overshoot,Overshoot
@@ -1539,6 +1543,12 @@ ability_desc_zombies_gravestone,Hides in a Gravestone until it's time for Tricks
 ability_desc_plants_aquatic,Play on Water or Land
 ,
 ability_desc_zombies_aquatic,Play on Water or Land
+,
+ability_desc_plants_charge,Does a Bonus Attack when played.
+,
+ability_desc_zombies_charge,Does a Bonus Attack when played.
+,
+ability_desc_plants_plantshunt,When a Plant is placed, this fighter move there.
 ,
 ability_desc_plants_deadly,Destroy any Plant or Zombie this hurts
 ,
@@ -1948,9 +1958,9 @@ fcb379e6-befe-4c20-aea9-f4cf88ff3be1_longDesc,
 ,
 75c55047-041e-4b80-8979-79e295477378_name,Cabbage-Pult
 ,
-75c55047-041e-4b80-8979-79e295477378_shortDesc,Gets [+1a]/[+1h] on Heights.
+75c55047-041e-4b80-8979-79e295477378_shortDesc,When played on Heights: This and all Leafy Plants in your hand gets [+1a]/[+1h].
 ,
-75c55047-041e-4b80-8979-79e295477378_longDesc,<b>When played on Heights:</b>\nThis gets [+1a]/[+1h].
+75c55047-041e-4b80-8979-79e295477378_longDesc,<b>When played on Heights:</b>\nThis and all Leafy Plants in your hand gets [+1a]/[+1h].
 ,
 75c55047-041e-4b80-8979-79e295477378_flavorText,"""Coleslaw from above!"""
 ,
@@ -2516,9 +2526,9 @@ bff0d95a-5aa1-4b80-b62c-c98e82f51dee_flavorText,"""It's true. I'm prickly on the
 ,
 9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_name,Steel Magnolia
 ,
-9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_shortDesc,Plants here and next door get [+2h].
+9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_shortDesc,[teamup]. Plants here and next door get [+2h].
 ,
-9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_longDesc,<b>When played:</b> Plants here and next door get [+2h].
+9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_longDesc,"[teamup]\n<b>When played:</b> Plants here and next door get [+2h]."
 ,
 9dd40a2b-0bf0-46a9-86af-ecdbcbd80e0d_flavorText,She's got nerves of steel... and everything else of steel!
 ,
@@ -2582,9 +2592,9 @@ fb0b76aa-ee92-4fd8-9847-7475127ea599_flavorText,Smackadamia wasn't born with sma
 ,
 55e039d0-cee7-4cf7-be45-7a6e1cf96495_name,Grave Buster
 ,
-55e039d0-cee7-4cf7-be45-7a6e1cf96495_shortDesc,Destroy a Gravestone and make a Busted Ground here.
+55e039d0-cee7-4cf7-be45-7a6e1cf96495_shortDesc,Destroy a Gravestone.
 ,
-55e039d0-cee7-4cf7-be45-7a6e1cf96495_longDesc,Destroy a Gravestone. If played on ground: make a Busted Ground here.
+55e039d0-cee7-4cf7-be45-7a6e1cf96495_longDesc,Destroy a Gravestone.
 ,
 55e039d0-cee7-4cf7-be45-7a6e1cf96495_flavorText,"""MUST. DESTROY. GRAVES."""
 ,
@@ -2598,9 +2608,9 @@ cae163ff-5524-47c4-b836-7062fb14b3a0_flavorText,"""Idea by semblance"""
 ,
 e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_name,Sting Bean
 ,
-e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_shortDesc,"[aquatic], [truestrike]"
+e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_shortDesc,"[charge], [aquatic],  [truestrike]"
 ,
-e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_longDesc,"[aquatic], [truestrike]"
+e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_longDesc,"[charge], [aquatic],  [truestrike]"
 ,
 e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_flavorText,"""I try to warn them, 'This is going to sting.' But the Zombies, they never listen."""
 ,
@@ -2614,9 +2624,9 @@ e093a94c-1a47-42e8-a23c-c6db1bf1b1eb_flavorText,"""I try to warn them, 'This is 
 ,
 00f8f7f7-47ed-435e-91cf-1bccf134d528_name,Spineapple
 ,
-00f8f7f7-47ed-435e-91cf-1bccf134d528_shortDesc,When played: Plants with no Strength get [+2a].
+00f8f7f7-47ed-435e-91cf-1bccf134d528_shortDesc,When played: Plants with [2a] or less get [+2a].
 ,
-00f8f7f7-47ed-435e-91cf-1bccf134d528_longDesc,<b>When played:</b> Plants with no Strength get [+2a].
+00f8f7f7-47ed-435e-91cf-1bccf134d528_longDesc,<b>When played:</b> Plants with [2a] or less get [+2a].
 ,
 00f8f7f7-47ed-435e-91cf-1bccf134d528_flavorText,Don't let his gruff exterior fool you. He's always looking out for the little guy.
 ,
@@ -2828,9 +2838,9 @@ c75c605c-1b68-4e22-9a81-b805932007b6_flavorText,"When he drops the beet, everyon
 ,
 979c3287-7555-42d5-a733-8a524815493c_name,Party Thyme
 ,
-979c3287-7555-42d5-a733-8a524815493c_shortDesc,"When a Plant does a Bonus Attack, draw a card."
+979c3287-7555-42d5-a733-8a524815493c_shortDesc,"When a fighter does a Bonus Attack, draw a card."
 ,
-979c3287-7555-42d5-a733-8a524815493c_longDesc,"When a Plant does a Bonus Attack, draw a card."
+979c3287-7555-42d5-a733-8a524815493c_longDesc,"When a fighter does a Bonus Attack, draw a card."
 ,
 979c3287-7555-42d5-a733-8a524815493c_flavorText,"A real extrovert, this one."
 ,
@@ -2846,7 +2856,7 @@ c75c605c-1b68-4e22-9a81-b805932007b6_flavorText,"When he drops the beet, everyon
 ,
 40132ca9-caec-42c0-b51d-c92b0c45d352_shortDesc,[teamup]. Move a Zombie to this lane.
 ,
-40132ca9-caec-42c0-b51d-c92b0c45d352_longDesc,[teamup]\n<b>When played:</b> Move a Zombie to this lane.
+40132ca9-caec-42c0-b51d-c92b0c45d352_longDesc,"[teamup]\n<b>When played:</b> Move a Zombie to this lane.
 ,
 40132ca9-caec-42c0-b51d-c92b0c45d352_Targeting,Choose a Zombie to move to Sweet Potato's lane.
 ,
@@ -2876,9 +2886,9 @@ c75c605c-1b68-4e22-9a81-b805932007b6_flavorText,"When he drops the beet, everyon
 ,
 c08bfe63-390d-4d2d-a498-362b37b98abd_name,Potted Powerhouse
 ,
-c08bfe63-390d-4d2d-a498-362b37b98abd_shortDesc,While in your hand: This gets [+1a]/[+1h] when a Plant gains Strength or Health.
+c08bfe63-390d-4d2d-a498-362b37b98abd_shortDesc,[charge]. While in your hand: This gets [+1a] when a Plant gains Strength or Health.
 ,
-c08bfe63-390d-4d2d-a498-362b37b98abd_longDesc,<b>While in your hand:</b> This gets [+1a]/[+1h] when a Plant gains Strength or Health.
+c08bfe63-390d-4d2d-a498-362b37b98abd_longDesc,"[charge]\n<b>While in your hand:</b> This gets [+1a] when a Plant gains Strength or Health."
 ,
 c08bfe63-390d-4d2d-a498-362b37b98abd_flavorText,"She loves living out of a pot. It's not for every Plant. But to her, it's home."
 ,
@@ -3360,9 +3370,9 @@ MUST_PLAY_CARDS_ZOMBIES,You get more <b>Brains</b> every turn.\nThey don't carry
 ,
 5aad6be7-3a48-4c49-b82b-2b244bb0128a_name,Trickster
 ,
-5aad6be7-3a48-4c49-b82b-2b244bb0128a_shortDesc,While in your hand: This costs [1b] less when you play a Trick. When played: This does a Bonus Attack.
+5aad6be7-3a48-4c49-b82b-2b244bb0128a_shortDesc,[charge]. While in your hand: This costs [1b] less when you play a Trick.
 ,
-5aad6be7-3a48-4c49-b82b-2b244bb0128a_longDesc,<b>While in your hand:</b> This costs [1b] less when you play a Trick.\n<b>When played:</b> This does a Bonus Attack.
+5aad6be7-3a48-4c49-b82b-2b244bb0128a_longDesc,"[charge].\n<b>While in your hand:</b> This costs [1b] less when you play a Trick."
 ,
 5aad6be7-3a48-4c49-b82b-2b244bb0128a_flavorText,"Never gets tired of the rubber chicken gag. "
 ,
@@ -3438,9 +3448,9 @@ c4e36e6b-abef-496b-9eb7-cdbc3fead0ba_flavorText,"Gives new meaning to the phrase
 ,
 cf645429-7b8f-40cc-8062-64f898b2014e_name,Flag Zombie
 ,
-cf645429-7b8f-40cc-8062-64f898b2014e_shortDesc,Zombies cost [1b] less.
+cf645429-7b8f-40cc-8062-64f898b2014e_shortDesc,When played: Summon 3 random zombies which cost [4b] or less.
 ,
-cf645429-7b8f-40cc-8062-64f898b2014e_longDesc,Zombies cost [1b] less.
+cf645429-7b8f-40cc-8062-64f898b2014e_longDesc,<b>When played:</b> Summon 3 random zombies which cost [4b] or less.
 ,
 cf645429-7b8f-40cc-8062-64f898b2014e_flavorText,He's not patriotic; he just likes fabric suspended from sticks.
 ,
@@ -4342,11 +4352,11 @@ e1ec49b6-5c00-4c82-954d-0ddc17705d7c_flavorText,"""It ain't easy keeping the pea
 ,
 13bbd37a-8555-4a16-9ba6-929f77f037b8_name,Gardening Gloves
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_shortDesc,Move a Plant or Zombie. Draw a card.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_shortDesc,Move a Plant. Draw a card.
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_longDesc,Move a Plant or Zombie. \nDraw a card.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_longDesc,Move a Plant. \nDraw a card.
 ,
-13bbd37a-8555-4a16-9ba6-929f77f037b8_Targeting,Tap where to move this fighter.
+13bbd37a-8555-4a16-9ba6-929f77f037b8_Targeting,Choose where to move this Plant.
 ,
 13bbd37a-8555-4a16-9ba6-929f77f037b8_flavorText,idea by semblance
 ,
@@ -4730,9 +4740,9 @@ Magic Beanstalk_flavorText,Giant not included.
 ,
 Small-Nut_name,Small-Nut
 ,
-Small-Nut_shortDesc," When you play a nut: all nuts get [+1h]"
+Small-Nut_shortDesc," When you play a nut: all other nuts get [+1h]."
 ,
-Small-Nut_longDesc," When you play a nut: all nuts get [+1h]"
+Small-Nut_longDesc," When you play a nut: all other nuts get [+1h]."
 ,
 Small-Nut_flavorText,Idea by semblance
 ,
@@ -14032,9 +14042,9 @@ Defensive End_flavorText,"Someone once told him the best defense is a good offen
 ,
 Hot Date_name,Hot Date
 ,
-Hot Date_shortDesc,Move a Zombie to this lane. When destroyed: Do 3 damage to a Zombie here.
+Hot Date_shortDesc,Move a Zombie to this lane. When destroyed: Do 3 damage to a Zombie here and Zombie Hero.
 ,
-Hot Date_longDesc,<b>When played:</b> Move a Zombie to this lane.\n<b>When destroyed:</b> Do 3 damage to a Zombie here.
+Hot Date_longDesc,<b>When played:</b> Move a Zombie to this lane.\n<b>When destroyed:</b> Do 3 damage to a Zombie here and Zombie Hero.
 ,
 Hot Date_Targeting,Choose a Zombie to move to Hot Date's lane.
 ,
@@ -14182,9 +14192,9 @@ Banana Split_heraldFighter,Made by Banana Split
 ,
 Half Banana_name,Half-Banana
 ,
-Half Banana_shortDesc,When destroyed: All Bananas in your hand get [+1a]/[+1h].
+Half Banana_shortDesc,When destroyed: Give 2 random Plants in your hand get [+1a]/[+1h].
 ,
-Half Banana_longDesc,<b>When destroyed:</b> All Bananas in your hand get [+1a]/[+1h].
+Half Banana_longDesc,<b>When destroyed:</b> Give 2 random Plants in your hand get [+1a]/[+1h].
 ,
 Half Banana_flavorText,"""Have you met my better half? She's around here somewhere."""
 ,
@@ -14250,9 +14260,9 @@ High Voltage Currant_flavorText,These trouble makers are just asking to get grou
 ,
 Health Nut_name,Health-Nut
 ,
-Health Nut_shortDesc,This attacks using its [h] instead of its [a].
+Health Nut_shortDesc,This attacks using its [h] instead of its [a]. Start of turn: this gets [+1h]
 ,
-Health Nut_longDesc,This attacks using its [h] instead of its [a].
+Health Nut_longDesc,"This attacks using its [h] instead of its [a].\n<b>Start of turn:</b> this gets [+1h]."
 ,
 Health Nut_flavorText,He always skips leg day.
 ,
@@ -14298,17 +14308,17 @@ Cosmic Nut_flavorText,"A staunch believer in numerology, he'll go on at length a
 ,
 Starch Lord_name,Starch-Lord
 ,
-Starch Lord_shortDesc,"When you play a Root, that Root gets [+1a]/[+1h]. Start of turn: [conjure] a Root."
+Starch Lord_shortDesc,When you play a Root: All Roots get [+1h]. When played: [conjure] a Root.
 ,
-Starch Lord_longDesc,"When you play a Root, that Root gets [+1a]/[+1h].\n<b>Start of turn:</b> [conjure] a Root."
+Starch Lord_longDesc,"<b>When you play a Root:</b> All Roots get [+1h]. \n<b>When played:</b> [conjure] a Root."
 ,
 Starch Lord_flavorText,His destiny is written in the starch.
 ,
 Galactacactus_name,Galacta-Cactus
 ,
-Galactacactus_shortDesc,[truestrike]. When destroyed: Do 1 damage to everything.
+Galactacactus_shortDesc,When destroyed: Do 1 damage to everything.
 ,
-Galactacactus_longDesc,[truestrike]\n<b>When destroyed:</b> Do 1 damage to everything.
+Galactacactus_longDesc,<b>When destroyed:</b> Do 1 damage to everything.
 ,
 Galactacactus_flavorText,"""I take pity on no one. For I am Galacta-Cactus!"""
 ,
@@ -15082,13 +15092,13 @@ Gravity Well_longDesc,"Plants here get [-1a].\nWhen a Plant is played, move it h
 ,
 Gravity Well_flavorText,Plants usually like being planted in holes. Black holes? Not so much.
 ,
-Intergalactic Warlord_name,Intergalactic Rizzlord
+Intergalactic Warlord_name,Intergalactic Warlord
 ,
-Intergalactic Warlord_shortDesc,"For the rest of the game, all Zombies get [+1a]/[+1h] and create a copy of this card in your hand."
+Intergalactic Warlord_shortDesc,"For the rest of the game, all Zombies get [+1a]/[+1h]."
 ,
-Intergalactic Warlord_longDesc,"<b>When played:</b> For the rest of the game, all Zombies get [+1a]/[+1h] and create a copy of this card in your hand."
+Intergalactic Warlord_longDesc,"<b>When played:</b> For the rest of the game, all Zombies get [+1a]/[+1h]."
 ,
-Intergalactic Warlord_flavorText,"In space Zombie circles, he's a very powerful figure. To the Plant player: suck my nuts lol"
+Intergalactic Warlord_flavorText,"In space Zombie circles, he's a very powerful figure. Just don't talk about him in front of Huge-Gigantacus. There's some jealousy there."
 ,
 Zombot Battlecruiser_name,Zombot Battlecruiser 5000
 ,
@@ -15220,9 +15230,7 @@ Cosmic Nut_heraldFighter,Conjured by Cosmic Nut - [a] set to [3a]
 ,
 Cosmic Nut_heraldTrick,Conjured by Cosmic Nut
 ,
-Starch Lord_heraldFighter,Conjured by Starch-Lord
 ,
-Starch Lord_heraldTrick,Conjured by Starch-Lord
 ,
 High Voltage Currant_heraldFighter,Conjured by High-Voltage Currant
 ,
@@ -15328,9 +15336,7 @@ Pumpking_heraldFighter,Conjured by Haunted Pumpking
 ,
 Pumpking_heraldTrick,Conjured by Haunted Pumpking
 ,
-Primal Wall-Nut_heraldFighter,Conjured by Primal Wall-Nut
 ,
-Primal Wall-Nut_heraldTrick,Conjured by Primal Wall-Nut
 ,
 King Coconut_heraldFighter,Made by Loco Coco
 ,
@@ -15544,9 +15550,9 @@ Master Grave Blaster_flavorText,They call it a graveyard. She calls it a buffet.
 ,
 Three-Nut_name,Three-Nut
 ,
-Three-Nut_shortDesc,"When you play a Plant, that Plant's [a] becomes [3a]."
+Three-Nut_shortDesc,When a Plant is played: If that Plant has less then [3a]. It's [a] becomes [3a].
 ,
-Three-Nut_longDesc,"When you play a Plant, that Plant's [a] becomes [3a]."
+Three-Nut_longDesc,<b>When a Plant is played:</b> If that Plant has less then [3a]. It's [a] becomes [3a].
 ,
 Three-Nut_flavorText,They say two heads are better than one. Three-Nut just took the next evolutionary step.
 ,
@@ -15968,9 +15974,9 @@ Pumpkin Shell_flavorText,"""Build your house on a solid foundation,"" they said.
 ,
 Primal Wall-Nut_name,Primal Wall-Nut
 ,
-Primal Wall-Nut_shortDesc,"[teamup], [untrickable]. [conjure] a card that costs [4s] or more."
+Primal Wall-Nut_shortDesc,"[teamup], [untrickable]. Draw a card."
 ,
-Primal Wall-Nut_longDesc,"[teamup], [untrickable]\n<b>When played:</b> [conjure] a card that costs [4s] or more."
+Primal Wall-Nut_longDesc,"[teamup], [untrickable]\n<b>When played:</b> draw a card."
 ,
 Primal Wall-Nut_flavorText,You can't be destroyed by a Rolling Stone when you basically are a Rolling Stone.
 ,
@@ -15984,9 +15990,9 @@ Gilly Bean_flavorText,Of course beans evolved gills. How else would they breathe
 ,
 King Coconut_name,Loco Coco
 ,
-King Coconut_shortDesc,Make [wallnuts] next door. [nutevolution]: Plants with no [a] get [+3a].
+King Coconut_shortDesc,When you play a Nut: Do 3 damage it's lane. When Played: Make [wallnuts] next door. [nutevolution]: All Nuts get [+3a]
 ,
-King Coconut_longDesc,<b>When played:</b> Make [wallnuts] next door.\n[nutevolution]: Plants with no [a] get [+3a].
+King Coconut_longDesc,"<b>When you play a Nut:</b> Do 3 damage it's lane. \n<b>When Played:</b> Make [wallnuts] next door.\n [nutevolution]: All Nuts get [+3a]"
 ,
 King Coconut_flavorText,He crowned himself King of All Hollow Earth. No one had the heart to tell him it was actually a parliamentary democracy.
 ,
