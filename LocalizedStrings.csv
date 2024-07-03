@@ -1548,7 +1548,7 @@ ability_desc_plants_charge,Does a Bonus Attack when played.
 ,
 ability_desc_zombies_charge,Does a Bonus Attack when played.
 ,
-ability_desc_plants_plantshunt,When a Plant is placed, this fighter move there.
+ability_desc_plants_plantshunt,When a Plant is placed
 ,
 ability_desc_plants_deadly,Destroy any Plant or Zombie this hurts
 ,
@@ -1966,11 +1966,11 @@ fcb379e6-befe-4c20-aea9-f4cf88ff3be1_longDesc,
 ,
 057cfef7-26b0-4701-84e5-5c8e0707d3b3_name,Grow-Shroom
 ,
-057cfef7-26b0-4701-84e5-5c8e0707d3b3_shortDesc,Gives another Plant [+2a]/[+2h].
+057cfef7-26b0-4701-84e5-5c8e0707d3b3_shortDesc,Give a Plant in your hand gets [+2a]/[+2h].
 ,
-057cfef7-26b0-4701-84e5-5c8e0707d3b3_longDesc,<b>When played:</b>\nAnother Plant gets [+2a]/[+2h].
+057cfef7-26b0-4701-84e5-5c8e0707d3b3_longDesc,<b>When played:</b>\nGive a Plant in your hand gets [+2a]/[+2h].
 ,
-057cfef7-26b0-4701-84e5-5c8e0707d3b3_Targeting,Choose another Plant to get [+2a]/[+2h].
+057cfef7-26b0-4701-84e5-5c8e0707d3b3_Targeting,Choose a Plant to get [+2a]/[+2h].
 ,
 057cfef7-26b0-4701-84e5-5c8e0707d3b3_flavorText,She's always bringing out the best in others.
 ,
@@ -2854,9 +2854,9 @@ c75c605c-1b68-4e22-9a81-b805932007b6_flavorText,"When he drops the beet, everyon
 ,
 40132ca9-caec-42c0-b51d-c92b0c45d352_name,Sweet Potato
 ,
-40132ca9-caec-42c0-b51d-c92b0c45d352_shortDesc,[teamup]. Move a Zombie to this lane.
+40132ca9-caec-42c0-b51d-c92b0c45d352_shortDesc,[teamup]. Move a Zombie to this lane. Turn end: Heal this to full.
 ,
-40132ca9-caec-42c0-b51d-c92b0c45d352_longDesc,"[teamup]\n<b>When played:</b> Move a Zombie to this lane.
+40132ca9-caec-42c0-b51d-c92b0c45d352_longDesc,"[teamup]\n<b>When played:</b> Move a Zombie to this lane.\n<b>Turn end:</b>Heal this to full."
 ,
 40132ca9-caec-42c0-b51d-c92b0c45d352_Targeting,Choose a Zombie to move to Sweet Potato's lane.
 ,
@@ -3156,9 +3156,9 @@ dd18dcd6-4d64-45bc-ac10-8c6eb2c74566_flavorText,H2Oh no you didn't!
 ,
 7a306a86-c517-4120-a2df-c2ecceadde7c_name,Muscle Sprout
 ,
-7a306a86-c517-4120-a2df-c2ecceadde7c_shortDesc,Gets [+1a]/[+1h] when you play a Plant.
+7a306a86-c517-4120-a2df-c2ecceadde7c_shortDesc,Gets [+1h] when you play a card and get [+1a] when your opponent play a card.
 ,
-7a306a86-c517-4120-a2df-c2ecceadde7c_longDesc,This gets [+1a]/[+1h] when you play a Plant.
+7a306a86-c517-4120-a2df-c2ecceadde7c_longDesc,Gets [+1h] when you play a card and get [+1a] when your opponent play a card.
 ,
 7a306a86-c517-4120-a2df-c2ecceadde7c_flavorText,"""Can you spot me, bro?"""
 ,
@@ -14182,9 +14182,9 @@ Gargantuar Throwing Imp_heraldFighter,Made by Gargantuar-Throwing Imp
 ,
 Banana Split_name,Banana Split
 ,
-Banana Split_shortDesc,When destroyed: Make two [linkhalfbananas] next door.
+Banana Split_shortDesc,When destroyed: Make two [linkhalfbananas] in random lanes.
 ,
-Banana Split_longDesc,<b>When destroyed:</b> Make two [linkhalfbananas] next door.
+Banana Split_longDesc,<b>When destroyed:</b> Make two [linkhalfbananas] in random lanes.
 ,
 Banana Split_flavorText,"""I don't want to brag, but hanging out in a tub full of ice cream all day... not a bad gig if you can get it."""
 ,
@@ -14692,9 +14692,9 @@ Cosmic Flower_flavorText,"She enjoys the simple things in life - hanging out wit
 ,
 Heartichoke_name,Heartichoke
 ,
-Heartichoke_shortDesc,"When a Plant or your Hero is healed, do that much damage to the Zombie Hero."
+Heartichoke_shortDesc,"When a Plant or your Hero is healed, do that much damage to the Zombie with lowest [h]."
 ,
-Heartichoke_longDesc,"When a Plant or your Hero is healed, do that much damage to the Zombie Hero."
+Heartichoke_longDesc,"When a Plant or your Hero is healed, do that much damage to the Zombie with lowest [h]."
 ,
 Heartichoke_flavorText,"She's a sweetheart, she really is. But fighting Zombies...it's made her hard."
 ,
@@ -16036,9 +16036,9 @@ Veloci-Radish Solo_flavorText,The root of all primeval.
 ,
 Typical Beanstalk_name,Typical Beanstalk
 ,
-Typical Beanstalk_shortDesc,When played next to a Leafy Plant: [conjure] a Leafy card.
+Typical Beanstalk_shortDesc,When played and End of Turn: Give random Leafy Plant in your hand [+1a]/[+1h]
 ,
-Typical Beanstalk_longDesc,<b>When played next to a Leafy Plant:</b> [conjure] a Leafy card.
+Typical Beanstalk_longDesc,"</b>When played and End of Turn</b>: \nGive random Leafy Plant in your hand [+1a]/[+1h]"
 ,
 Typical Beanstalk_flavorText,"""Everyone's magic in their own special way. Everyone except me."""
 ,
@@ -21020,3 +21020,7 @@ BustedGround_shortDesc,Gravestone's can't be played here
 BustedGround_longDesc,Zombies can't play gravestones here
 BustedGround_flavorText,
 4f6ad95c-e9c3-43ea-95cf-223e47302f51_Targeting,Choose a Plant to give it [+3h]
+Missing Brain_name,Missing Brain
+Missing Brain_shortDesc,"[truestrike]. Do 1 damage to your Hero, draw a card."
+Missing Brain_longDesc,"[truestrike]. Do 1 damage to your Hero, draw a card."
+Missing Brain_flavorText,

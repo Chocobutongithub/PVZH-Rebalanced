@@ -1,3 +1,18 @@
+# 03/07/2024
+## Chocopie
+
+### Buff:
+* The Podfather - 3/2/2 -> 3/2/3
+* Repeater - 3/2/2 -> 2/2/2
+
+### Rework:
+* Typical Beanstalk - 3/3/3 -> 5/3/5. When played and End Of Turn: give random Leafy Plant in your hand +1/+1
+* Banana Split - 4/4/4 -> 4/4/3. When destroyed: Make 2 random Half-Banana in random lanes
+* Muscles Sprout - 3/3/2 -> 3/2/3. Gets +1 hp when you play a card and get +1 atk when your opponent play a card
+* Grow Shroom - 3/2/1 -> 3/2/2. When played: Give a Plant in your hand +2/+2
+* Heartichoke - When a Plant or your Hero is healed, do that much damage to the Zombie with lowest hp
+* Sweet Potato - 1/0/3 -> 1/0/2. End of Turn: Heal this to full
+
 # 01/07/2024
 ## Chocopie
 
@@ -10,7 +25,7 @@
 * Half Banana - When Destroyed: Give 2 random Plants in your hand +1/+1
 
 ### Nerf:
-* Small Nut - Whenever you play a Nut, all other Nuts get +1hp
+* Small Nut - Whenever you play a Nut, all other Nuts get +1 hp
 * Health Nut - This attacks using its hp instead of its atk. Start of turn: this gets +1 hp
 
 ### Rework:
